@@ -1,0 +1,110 @@
+/******************* End Global Properties ******************/
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+input{
+    caret-color: #5438DC;
+}
+::selection{
+    background: #ffda3c 0% 0% no-repeat padding-box;
+    color: #5438DC;
+}
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+body::-webkit-scrollbar {
+	width: 10px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+	background: #59f8e8;        /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+	background-color: #283ea6;    /* color of the scroll thumb */
+	border-radius: 0px;       /* roundness of the scroll thumb */
+}
+/******************* End Global Properties ******************/
+/******************* Section Results Sourch ******************/
+.resultado-busca{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.resultado{
+    margin-bottom: 10px;
+    border-radius: 8px;
+    -moz-column-break-inside: avoid;
+    break-inside: avoid-column;
+    list-style-type: none;
+    border: 1px solid #5f748b;
+    padding: 18px 12px;
+    margin-top: 50px;
+}
+.resultado a{
+    text-align: left;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Lato';
+    letter-spacing: 0px;
+    color: #002A54;
+    opacity: 1;
+    flex: 1;
+}
+.resultado .wrapper .codigo {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Lato';
+    font: normal normal bold 16px/32px Lato;
+    letter-spacing: 0px;
+    color: #3A58E8;
+    opacity: 1;
+}
+.resultado-busca h1{
+    font-size: 2.3rem;
+    margin-top: 90px;
+    font-family: 'Lato';
+    font-weight: 700;
+    color: #002A54;
+}
+.resultado-busca .codigo-cat{
+    color: #3A58E8;
+}
+.resultado-busca .voltar-botao a {
+    text-align: left;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 13px;
+    font-family: 'Lato';
+    letter-spacing: 0px;
+    color: #7E8994;
+    opacity: 1;
+    vertical-align: middle;
+}
+.img-busca img{
+    display: block;
+    margin: 0px auto;
+}
+/******************* End Section Results Sourch ******************/
+/******************* Footer ******************/
+footer{
+	background: transparent linear-gradient(94deg, #0496FF 0%, #3A58E8 100%) 0% 0% no-repeat padding-box;
+	padding-top: 15px;
+    width: 100%;
+	padding-bottom: 15px;
+    position: inherit;
+    bottom: 0;
+    left: 0;
+}
+.copy p{
+    padding-top: 23px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+.logo-rodape img{
+    display: block;
+    margin: 0px auto;
+}
+/******************* End Body ******************/

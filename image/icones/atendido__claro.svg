@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.83 17.59">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #4bb543;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="checkmark-done-outline">
+    <path id="Caminho_17" data-name="Caminho 17" class="cls-1" d="M25.41,1.41l-12.92,14.77-5.54-5.54"/>
+    <line id="Linha_12" data-name="Linha 12" class="cls-1" x1="6.95" y1="16.18" x2="1.41" y2="10.64"/>
+    <line id="Linha_13" data-name="Linha 13" class="cls-1" x1="19.87" y1="1.41" x2="12.03" y2="10.41"/>
+  </g>
+</svg>

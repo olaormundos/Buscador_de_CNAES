@@ -1,0 +1,1031 @@
+/******************* Reset ******************/
+html, body{
+	margin:0px !important;
+	padding: 0px !important;
+    overflow-x: hidden !important;
+}
+input{
+    caret-color: #5438DC;
+}
+::selection{
+    background: #ffda3c 0% 0% no-repeat padding-box;
+    color: #5438DC;
+}
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+/******************* End Reset ******************/
+.atividade p{
+	font-size: 14px;
+}
+body::-webkit-scrollbar {
+	width: 10px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+	background: #59f8e8;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+	background-color: #283ea6;    /* color of the scroll thumb */
+	border-radius: 0px;       /* roundness of the scroll thumb */
+  }
+.alinhar{
+	display: flex;
+}
+.botao-voltar{
+	margin-bottom: 50px;
+}
+.botao-voltar a{
+	border: solid 1px #5438dc;
+    border-radius: 5px;
+    color: #5438dc;
+    background-color: #fff;
+    text-decoration: none;
+}
+.botao-voltar a:hover{
+    color: blue!important;
+    background-color: #fff;
+    text-decoration: none;
+}
+.img-busca{
+    margin: 30px auto 30px auto;
+    overflow: hidden;
+    clear: both;
+}
+.texto2{
+	float: right;
+    margin: 45px 0 0 0;
+}
+.texto2 h4{
+	font-size: 28px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #5438DC;
+}
+.texto2 p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #707070;
+    margin: 11px 0 0 0;
+}
+.facasuabusca .texto2 h4 b {
+    font-size: 15px;
+    color: #5438DC;
+    font-weight: 700;
+	font-family: 'Lato';
+}
+.facasuabusca {
+    width: 540px;
+    margin: 30px auto 30px auto;
+    overflow: hidden;
+    clear: both;
+	display: flex;
+}
+.conteudo-principal{
+	padding-bottom: 50px;
+}
+.atividades span{
+  text-align: left;
+  padding: 30px;
+}
+/******************* Body ******************/
+.topo{
+	background-image: url('https://contaagil.com/consulta-cnae/image/banner/Banner-Tabela-Consulta-CNAE-Simples-Nacional.webp');
+	height: 720px;
+	position: relative;
+    height: 100vh;
+    width: 100vw;
+    /* adicionando imagem de fundo */
+	background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 100%!important;
+    padding-top: 54px;
+    padding-left: 70px!important;
+    padding-right: 70px!important;
+}
+.bloco-do-buscador h1{
+    font-family: Lato;
+    color: #FFFFFF;
+    font-weight: 800;
+    letter-spacing: 0px;
+    padding-top: 30px;
+
+}
+.bloco-do-buscador h3{
+    font-family: Lato;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding-top: 5px;
+}
+.bloco-do-buscador p{
+    font-family: Lato;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    padding-top: 10px;
+}
+.bloco-do-buscador>img{
+    width: 150px;
+}
+.bloco-da-lista{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 16px #002A5429;
+    border-radius: 16px;
+    opacity: 1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bloco-da-lista h2{
+    font-family: Lato;
+    font-size: 19px;
+    color: #5438DC;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-align: center;
+}
+/*********************** End Form search ************************/
+#formulario li{
+    list-style: none;
+}
+#formulario ul{
+    margin-left: -40px;
+}
+#formulario input.numero-campo {
+    border: solid 1px #ffffff;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0px 4px 16px #002a5429;
+    height: 48px;
+    float: left;
+    box-sizing: border-box;
+    padding: 0px 12px;
+    width: -webkit-fill-available;
+}
+#formulario input.botao-campo{
+    background-image: url(https://contaagil.com/consulta-cnae/image/icones/lupa.svg)!important;
+    background-position: center!important;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    border: none;
+    margin-left: -15px;
+    position: absolute;
+    right: 15px;
+    width: 55px;
+    height: 48px;
+    cursor: pointer;
+    z-index: 2;
+}
+#formulario2 li{
+    list-style: none;
+}
+#formulario2 ul{
+    margin-left: -40px;
+}
+#formulario2 input.numero-campo {
+    border: solid 1px #ffffff;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0px 4px 16px #002a5429;
+    height: 48px;
+    float: left;
+    box-sizing: border-box;
+    padding: 0px 12px;
+    width: -webkit-fill-available;
+}
+#formulario2 input.botao-campo{
+    background-image: url(https://contaagil.com/consulta-cnae/image/icones/lupa.svg)!important;
+    background-position: center!important;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    border: none;
+    margin-left: -15px;
+    position: absolute;
+    right: 15px;
+    width: 55px;
+    height: 48px;
+    cursor: pointer;
+    z-index: 2;
+}
+#msgerro p{
+    color: #002A54;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0px 8px 16px #002a5429;
+}
+#msgerro2 p{
+    color: #002A54;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0px 8px 16px #002a5429;
+}
+/*********************** End Form search ************************/
+/******************* Block list CNAES ******************/
+.lista-scroll{
+    height: 1050px;
+    overflow-y: scroll;
+}
+.lista-scroll ul{
+    padding: 0;
+}
+.lista-scroll li{
+    margin-top: 10px;
+    list-style: none;
+    width: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 8px #002A5429;
+    border-radius: 16px;
+    opacity: 1;
+    padding: 10px 0.5rem 7px 10px;
+}
+.lista-scroll .cnae-item .wrapper .codigo{
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Lato';
+    font: normal normal bold 16px/32px Lato;
+    letter-spacing: 0px;
+    color: #3A58E8;
+    opacity: 1;
+}
+.lista-scroll .cnae-item .wrapper{
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Lato';
+    letter-spacing: 0px;
+    color: #002A54;
+    opacity: 1;
+    flex: 1;
+}
+.lista-scroll .cnae-item img{
+    float: right;
+    width: 40px;
+    /* height: 56px; */
+    background: #59F8E8 0% 0% no-repeat padding-box;
+    border-radius: 77px;
+    opacity: 1;
+    padding: 13px 9px;
+    margin-top: -19px;
+    margin-right: -6px;
+    /* padding: 19px; */
+    margin-left: 10px;
+}
+.lista-scroll .cnae-item a{
+    display: inline-flex;
+    align-items: center;
+    padding: 12px;
+    color: inherit;
+    width: 100%;
+}
+.lista-scroll::-webkit-scrollbar {
+	width: 5px;               /* width of the entire scrollbar */
+  }
+  
+.lista-scroll::-webkit-scrollbar-track {
+	background: #E4E8EB;        /* color of the tracking area */
+  }
+  
+.lista-scroll::-webkit-scrollbar-thumb {
+	background-color: #B7BEC4;    /* color of the scroll thumb */
+	border-radius: 0px;       /* roundness of the scroll thumb */
+  }
+/******************* Block list CNAES ******************/
+/******************* Block list category CNAES ******************/
+.filtro-secoes{
+    margin-top: 15px;
+    padding: 0;
+    list-style: none;
+    box-shadow: 0px 8px 16px #002a5429;
+}
+.filtro-secoes li{
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 12px 7px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #212529;
+    font-weight: 500;
+}
+.filtro-secoes .secoes-arrow {
+    background: transparent linear-gradient(96deg, #0496FF 0%, #3A58E8 100%) 0% 0% no-repeat padding-box;
+    text-align: center;
+    padding: 0;
+    color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+}
+.filtro-secoes .secoes-arrow:hover{
+    background: transparent linear-gradient(96deg, #0496FF 0%, #3A58E8 100%) 0% 0% no-repeat padding-box;
+    text-align: center;
+    padding: 0;
+    color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+}
+.filtro-secoes .secoes-arrow-cima {
+    background: transparent linear-gradient(96deg, #0496FF 0%, #3A58E8 100%) 0% 0% no-repeat padding-box;
+    text-align: center;
+    padding: 0;
+    color: #ffffff;
+    border-radius: 10px 10px 0px 0px;
+}
+.filtro-secoes .secoes-arrow-cima:hover{
+    background: transparent linear-gradient(96deg, #0496FF 0%, #3A58E8 100%) 0% 0% no-repeat padding-box;
+    text-align: center;
+    padding: 0;
+    color: #ffffff;
+    border-radius: 10px 10px 0px 0px;
+}
+.filtro-secoes .fa-angle-down{
+    font-size: 1rem;
+}
+.filtro-secoes li:hover{
+    background-color: #f4f7fb;
+    border-left: 5px solid #3A58E8!important;
+    border-radius: 4px 0 0 4px;
+    margin-left: -4px;
+    padding-left: 10px;
+    color:#3A58E8;
+}
+.filtro-secoes a:hover{
+    text-decoration: none;
+}
+.cnae-atendido__activity{
+    min-height: 60px;
+    padding: auto;
+    background-color: #ffffff;
+}
+.cnae-atendido li+li{
+    margin-top: -1px;
+}
+/******************* Block list category CNAES ******************/
+/******************* Block news ******************/
+.card-news{
+    display: flex;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 16px #002A5429;
+    border-radius: 8px;
+    opacity: 1;
+    margin-top: 15px;
+}
+.card-news .esquerda{
+    padding: 6px 10px;
+}
+.card-news .esquerda p{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Lato';
+    letter-spacing: 0px;
+    color: #3A58E8;
+    opacity: 1;
+}
+.card-news .esquerda .tempo{
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 11px;
+    letter-spacing: 0px;
+    color: #0496FF;
+    opacity: 1;
+    padding-top: inherit;
+}
+.card-news .esquerda .leia-mais{
+    float: right;
+    letter-spacing: 0px;
+    font-weight: 600;
+    color: #0496FF;
+    opacity: 1;
+    font-family: 'Lato';
+    font-size: 11px;
+    padding-top: inherit;
+}
+.card-news a{
+    text-decoration: none!important;
+}
+.bloco-news .card-news .direita img{
+    height: -webkit-fill-available;
+}
+/******************* End Block news ******************/
+/******************* Section Video ******************/
+.secao-video{
+    margin-top: 750px;
+    padding-left: 100px!important;
+    padding-right: 100px!important;
+}
+.secao-video h2{
+    text-align: center;
+    font-size: 29px;
+    font-weight: 900;
+    font-family: 'Lato';
+    letter-spacing: 0px;
+    color: #3A58E8;
+    opacity: 1;
+}
+.secao-video img{
+    display: block;
+    margin: 0px auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.secao-video p{
+    font-size: 16px;
+    font-family: 'Lato';
+    text-align: left;
+    letter-spacing: 0px;
+    color: #002A54;
+    opacity: 1;
+}
+.secao-video .botao-cta button{
+    border: none;
+}
+.secao-video .botao-cta{
+    margin-top: 80px;
+    padding-bottom: 230px;
+}
+.secao-video .botao-cta .consultar{
+    background: transparent linear-gradient(96deg, #0496FF 0%, #3A58E8 100%) 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+    width: 550px;
+    height: 70px;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Lato';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    float: left;
+}
+.secao-video .botao-cta .abrir-cnpj{
+    width: 380px;
+    height: 70px;
+    background: #ffda3c 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 16px #59F8E83D;
+    border-radius: 16px;
+    opacity: 1;
+    float: right;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Lato';
+    letter-spacing: 0px;
+    color: #5438DC;
+}
+.secao-video h4{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Lato';
+    letter-spacing: 0px;
+    color: #3A58E8;
+    opacity: 1;
+}
+/******************* End Section Video ******************/
+/******************* Posts Related ******************/
+.relacionados{
+    max-width: 1250px!important;
+    margin-top: 80px;
+}
+.relacionados .card-post{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 16px #002A5429;
+    border-radius: 16px;
+    opacity: 1;
+    margin: 2px;
+    max-width: 366px!important;
+    margin: 25px;
+    padding-top: 25px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 60px;
+}
+.card-post .jornal{
+    padding-top: 10px;
+}
+.card-post p{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Lato';
+    letter-spacing: 0px;
+    color: #3A58E8;
+    opacity: 1;
+}
+.card-post .tempo{
+    float: left;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Lato';
+    letter-spacing: 0px;
+    color: #0496FF;
+    opacity: 1;
+    padding-top: inherit;
+}
+.card-post .leia-mais{
+    float: right;
+    letter-spacing: 0px;
+    font-weight: 600;
+    color: #0496FF;
+    opacity: 1;
+    font-family: 'Lato';
+    font-size: 16px;
+    padding-top: inherit;
+}
+/******************* End Posts Related ******************/
+/******************* Jornada ******************/
+.jornada{
+    max-width: 1228px!important;
+    margin-top: 100px;
+    padding-bottom: 80px;
+}
+.imagem img{
+    float: right;
+    margin-top: -33px;
+    margin-right: -204px;
+    margin-left: 93px;
+}
+.jornada .fundo{
+    background: transparent linear-gradient(108deg, #0496FF 0%, #3A58E8 100%) 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+    width: 1052px;
+    padding-top: 39px;
+    padding-left: 60px;
+    display: flex;
+}
+.fundo .texto h2{
+    float: left;
+    text-align: left;
+    font-weight: 800;
+    font-size: 24px;
+    font-family: 'Lato';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.fundo .texto h3{
+    float: left;
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Lato';
+    letter-spacing: 0px;
+    color: #59F8E8;
+    opacity: 1;
+    padding-top: 10px;
+}
+.fundo .texto p{
+    float: left;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Lato';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.texto .abrir-empresa{
+    border: none;
+    width: 327px;
+    height: 45px;
+    background: #ffda3c 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 16px #59F8E829;
+    border-radius: 16px;
+    opacity: 1;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Lato';
+    letter-spacing: 0px;
+    color: #5438DC;
+}
+/******************* End Jornada ******************/
+/******************* Perguntas Frequentes ******************/
+.perguntas{
+    background: #F9F9F9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 100%!important;
+}
+.perguntas .accordion{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.titulo h2{
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    color: #5438DC;
+    opacity: 1;
+}
+.titulo p{
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 14;
+    font-weight: 400;
+    padding-bottom: 20px;
+    letter-spacing: 0px;
+    color: #5438DC;
+    opacity: 1;
+}
+.perguntas .btn-link{
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #002A54;
+    opacity: 1;
+    text-decoration: none!important;
+}
+.perguntas .btn-link:hover{
+    color: #002A54;
+    text-decoration: none!important;
+}
+.perguntas .card-body{
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    padding-left: 34px!important;
+    background: #F9F9F9 0% 0% no-repeat padding-box;
+}
+/******************* End Perguntas Frequentes ******************/
+/******************* Formulário do modal ******************/
+.modal-form .modal-content{
+    background-color: #0083F6;
+    border-radius: 15px;
+    border: none!important;
+}
+.modal-form h4{
+    color: #ffffff;
+}
+.modal-form p{
+    color: #ffffff;
+    margin-top: revert;
+}
+.modal-form label{
+    color: #ffffff;
+    font-size: initial;
+}
+.modal-form .mb-5{
+    margin-bottom: 2rem!important;
+}
+.modal-form .btn{
+    background-color: #ffffff;
+    padding: 8px 50px;
+    border-radius: 6px;
+    color: #0083F6;
+    font-family: "Lato",Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: -30px;
+}
+.modal-form .btn:hover{
+    background-color: #0083F6;
+    padding: 10px 55px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    color: #ffffff;
+    font-family: "Lato",Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.modal-form, .modal-header, .modal-footer{
+    border: none!important;
+}
+.modal-form #msgemail{
+    padding-top: 10px;
+    padding-left: 13px;
+    font-family: 'Lato';
+    font-weight: 500;
+    color: chartreuse;
+}
+/******************* End Formulário do modal ******************/
+/******************* End Body ******************/
+/******************* Footer ******************/
+footer{
+	background: transparent linear-gradient(94deg, #0496FF 0%, #3A58E8 100%) 0% 0% no-repeat padding-box;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.copy p{
+    padding-top: 23px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+.logo-rodape img{
+    display: block;
+    margin: 0px auto;
+}
+.topo-scroll{
+    background-color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/******************* End Body ******************/
+/******************* Medias Query ******************/
+@media only screen and (min-width: 2560px) {
+    .secao-video {
+        margin-top: 600px!important;
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+    .lista-scroll {
+        height: 1433px!important;
+    }
+    .bloco-do-buscador h1 {
+        padding-top: 62px;
+        font-size: 50px;
+    }
+    .bloco-do-buscador h3 {
+        font-size: 24px;
+        padding-top: 35px;
+    }
+    .bloco-do-buscador p {
+        font-size: 23px;
+        padding-top: 54px;
+        padding-bottom: 23px;
+    }
+    .bloco-do-buscador .bloco-news{
+        padding-top: 58px;
+    }
+    .bloco-do-buscador>img {
+        width: 300px;
+    }
+    .bloco-news .card-news .direita img {
+        height: -webkit-fill-available;
+        width: 408px;
+    }
+}
+@media only screen and (min-width: 1920px) {
+    .secao-video {
+        margin-top: 200px;
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+    .card-news .esquerda p {
+        margin-bottom: 65px;
+    }
+    .bloco-news .card-news .direita img {
+        height: -webkit-fill-available;
+        width: 328px;
+    }
+    .lista-scroll {
+        height: 1018px;
+        overflow-y: scroll;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .topo {
+        background-repeat: no-repeat;
+        max-width: 100%!important;
+        padding-top: 54px;
+        padding-left: 25px!important;
+        padding-right: 25px!important;
+        background-size: auto;
+        height: auto;
+    }
+    .lista-scroll {
+        height: 1064px;
+    }
+    .cnae-item a{
+        display: inline-flex;
+        align-items: center;
+        padding: 12px;
+        color: inherit;
+        width: 100%;
+    }
+    .secao-video {
+        margin-top: 80px;
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+    .secao-video .botao-cta {
+        padding-bottom: 150px;
+    }
+    .relacionados .card-post {
+        max-width: 289px!important;
+    }
+    .perguntas .accordion {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .jornada .fundo {
+        width: 996px;
+    }
+    .imagem img {
+        margin-right: -62px;
+    }
+    .texto .abrir-empresa {
+        margin-bottom: 30px;
+    }
+    .bloco-news .card-news .direita img {
+        height: -webkit-fill-available;
+        width: 184px;
+    }
+}
+@media only screen and (max-width: 768px){
+    #formulario input.numero-campo {
+        font-size: small;
+    }
+    .bloco-da-lista .lista-scroll {
+        height: 1400px;
+    }
+    .card-news {
+        display: block;
+    }
+    .bloco-news .card-news .direita img {
+        border-radius: 0px 10px 10px 0px;
+    }
+    .secao-video {
+        margin-top: 70px;
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+    .perguntas .accordion {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .secao-video .botao-cta {
+        text-align: -webkit-center;
+    }
+    .secao-video .botao-cta .consultar {
+        float: none;
+        width: -webkit-fill-available;
+    }
+    .secao-video .botao-cta .abrir-cnpj {
+        float: none;
+        width: -webkit-fill-available;
+        margin-top: 20px;
+    }
+    .secao-video .botao-cta {
+        margin-top: 60px;
+        padding-bottom: 60px;
+    }
+    .relacionados .card-post {
+        max-width: 244px!important;
+        margin: 5px;
+    }
+    .jornada .fundo {
+        display: table-cell;
+    }
+    .imagem img {
+        float: none;
+        margin-top: 0px;
+    }
+    .fundo .texto h3 {
+        padding-right: 38px;
+    }
+    .fundo .texto p {
+        padding-right: 38px;
+    }
+    .bloco-news .card-news .direita img {
+        height: -webkit-fill-available;
+        width: 282px;
+    }
+}  
+@media only screen and (max-width: 425px) {
+    .inverter {
+        -webkit-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+        display: flex;
+    }
+    .bloco-da-lista .lista-scroll {
+        height: 300px;
+    }
+	.copy p{
+		text-align: center;
+	}
+    .logo-rodape img{
+        display: block;
+        margin: 0px auto;
+    }
+    .topo {
+        background-repeat: no-repeat;
+        max-width: 100%!important;
+        padding-top: 54px;
+        padding-left: 25px!important;
+        padding-right: 25px!important;
+        background-size: auto;
+        height: auto;
+    }
+    .bloco-da-lista {
+        margin-top: 40px;
+    }
+    #formulario input.numero-campo {
+        font-size: small;
+    }
+    .bloco-news .card-news {
+        display: block;
+        margin-top: 15px;
+        max-height: inherit!important;
+    }
+    .bloco-news .card-news .direita img{
+        width: -webkit-fill-available;
+        border-radius: 0px 10px 10px 0px
+    }
+    .lista-scroll li {
+        padding: 10px 0.5rem 7px 5px;
+    }
+    .lista-scroll .cnae-item img {
+        width: 35px;
+        height: 35px;
+        padding: 0px 9px;
+        margin-top: 0px;
+    }
+    .secao-video {
+        margin-top: 70px;
+        padding-left: 25px!important;
+        padding-right: 25px!important;
+    }
+    .secao-video .botao-cta {
+        margin-top: 40px;
+        padding-bottom: 70px;
+    }
+    .secao-video .botao-cta .consultar {
+        width:-webkit-fill-available;
+        height: 70px;
+        font-size: 24px;
+        float: none;
+        margin-bottom: 30px;
+    }
+    .secao-video .botao-cta .abrir-cnpj {
+        width: -webkit-fill-available;
+        height: 70px;
+        float: none;
+        font-size: 24px;
+    }
+    .relacionados {
+        margin-top: 0px;
+    }
+    .relacionados .card-post {
+        max-width: 396px!important;
+        margin: 15px;
+    }
+    .perguntas .accordion {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .jornada {
+        margin-top: 60px;
+        padding-bottom: 10px;
+    }
+    .jornada .fundo {
+        max-width: auto;
+        padding-top: 39px;
+        padding-left: 35px;
+        display: table-cell;
+    }
+    .jornada .fundo .texto{
+        width: min-content;
+    }
+    .imagem img {
+        margin-right: -36px;
+        max-width: 370px;
+        float: none;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .jornada .fundo {
+        padding-left: inherit;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .jornada .fundo {
+        max-width: 290px;
+    }
+    .fundo .texto h2, h3, p {
+        padding-right: 0px!important;
+    }
+    .texto .abrir-empresa {
+        width: 261px;
+        height: 62px;
+        font-size: 16px;
+    }
+    .imagem img {
+        margin-right: 26px;
+        max-width: 317px;
+        float: none;
+        margin-left: -14px;
+    }
+    #formulario input.numero-campo {
+        font-size: x-small;
+    }
+}
+/******************* End Medias Query ******************/  

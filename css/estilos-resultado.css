@@ -1,0 +1,863 @@
+.conteudo-principal{
+    max-width: 100%!important;
+    padding-right: 150px!important;
+    padding-left: 150px!important;
+}
+/******************* Reset ******************/
+html, body{
+	margin:0px !important;
+	padding: 0px !important;
+}
+input{
+    caret-color: #5438DC;
+}
+::selection{
+    background: #ffda3c 0% 0% no-repeat padding-box;
+    color: #5438DC;
+}
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+/******************* End Reset ******************/
+/******************* Color And Width Scroll Bar ******************/
+body::-webkit-scrollbar {
+	width: 8px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+	background: #59f8e8;        /* color of the tracking area */
+    border-radius: 10px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+	background-color: #283ea6;    /* color of the scroll thumb */
+	border-radius: 10px;       /* roundness of the scroll thumb */
+  }
+/******************* End Color And Width Scroll Bar ******************/
+/******************* Banner CNPJ grátis ******************/
+.card-abertura{
+    background-image: url(https://contaagil.com/consulta-cnae/image/banner/bg-box.webp);
+    /* height: 720px; */
+    position: sticky;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: min-content;
+    padding-left: 35px!important;
+    padding-right: 35px!important;
+    padding-bottom: 20px!important;
+    text-align-last: center;
+    top: 20px;
+    bottom: 20px;
+    border-radius: 16px;
+}
+.card-abertura h2{
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: 800;
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.card-abertura p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    letter-spacing: 0px;
+    font-size: 14px;
+    font-family: 'Lato';
+    color: #FFFFFF;
+    opacity: 1;
+}
+.botao-cta .abrir-cnpj{
+    width: 300px;
+    height: 56px;
+    background: #ffda3c 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 16px #59F8E83D;
+    border-radius: 16px;
+    border: none;
+    opacity: 1;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Lato';
+    letter-spacing: 0px;
+    color: #5438DC;
+    margin-bottom: 15px;
+}
+/******************* End Banner CNPJ grátis ******************/
+/******************* Content ******************/
+.conteudo{
+    padding-top: 20px;
+    /*padding-left: 60px;*/
+}
+.conteudo .voltar-botao a{
+    text-align: left;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 13px;
+    font-family: 'Lato';
+    letter-spacing: 0px;
+    color: #7E8994;
+    opacity: 1;
+    vertical-align: middle;
+}
+.cnae{
+    padding-top: 40px;
+}
+.cnae h1{
+    text-align: left;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Lato';
+    letter-spacing: 0px;
+    color: #002A54;
+}
+.cnae span{
+    color: #3A58E8;
+}
+.titulo-cnae span{
+    margin-right: 20px;
+    padding-top: 16px;
+    text-align: left;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Lato';
+    letter-spacing: 0px;
+    color: #002A54;
+    opacity: 1;
+}.estado{
+    display: flex;
+    margin-top: 20px;
+}
+.estado div{
+    margin-right: 20px;
+}
+.estado .atendido p{
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Lato';
+    text-align: left;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    background-color: #4BB543;
+    max-width: 228px;
+    padding: 15px;
+    border-radius: 41px
+}
+.estado .nao-atendido p{
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Lato';
+    text-align: left;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    background-color: #F85959;
+    max-width: 246px;
+    padding: 15px;
+    border-radius: 41px
+}
+.estado .incluso p{
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Lato';
+    text-align: left;
+    letter-spacing: 0px;
+    color: #4BB543;
+    opacity: 1;
+    background-color: #ffffff;
+    border: 1px solid #4BB543;
+    max-width: 258px;
+    padding: 15px;
+    border-radius: 41px
+}
+.estado .nao-incluso p{
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Lato';
+    text-align: left;
+    letter-spacing: 0px;
+    color: #F85959;
+    opacity: 1;
+    background-color: #ffffff;
+    border: 1px solid #F85959;
+    max-width: 279px;
+    padding: 15px;
+    border-radius: 41px
+}
+.separador-container{
+    padding-left: 0px!important;
+    margin-right: 20px!important;
+}
+.separador{
+    margin-bottom: 40px;
+    padding-top: 40px;
+    border-bottom: 1px solid #d0ddea;
+}
+.hierarquia table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.hierarquia{
+    max-width: 370px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #59f8e8;
+}
+.hierarquia .title{
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0;
+    padding: 12px;
+    font-weight: 500;
+    color: #002A54;
+}
+.hierarquia tbody{
+    transition: none;
+}
+.hierarquia td{
+    padding: 10px;
+    border-top: 1px solid #ffffff;
+    font-size: 15px;
+    text-transform: lowercase;
+}
+.hierarquia thead.collapsed svg{
+    transform: rotate(0);
+}
+.hierarquia thead svg{
+    float: right;
+    font-size: 2rem;
+    line-height: .6;
+    transform: rotate(180deg);
+    transition: transform .3s linear;
+}
+.pode-mei h2{
+    padding-top: 30px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #002A54;
+}
+.pode-mei span{
+    color: #3A58E8;
+}
+.pode-mei p{
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 500;
+    font-family: 'Lato';
+    letter-spacing: 0px;
+    color: #002A54;
+}
+.pode-mei p, #cnaenumeromeinao, #cnaenumeromeisim{
+    color: #002A54;
+}
+.enquadra h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #002A54;
+}
+.enquadra span{
+    color: #3A58E8;
+}
+.aliquotas p{
+    padding-top: 10px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #002A54;
+    margin-right: 20px;
+}
+.aliquotas span{
+    color: #002A54;
+    font-weight: 500;
+}
+.aliquotas span a{
+    color: #3A58E8;
+}
+.fator h2{
+    padding-top: 30px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #002A54;
+}
+.fator h2 span{
+    color: #3A58E8;
+}
+.fator p{
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 500;
+    font-family: 'Lato';
+    letter-spacing: 0px;
+    color: #002A54;
+}
+.evite p{
+    padding-top: 15px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #002A54;
+    margin-right: 20px;
+}
+.evite span{
+    color: #002A54;
+    font-weight: 500;
+}
+.atividades h2{
+    padding-top: 15px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #002A54;
+}
+.atividades ul{
+    margin-left: -40px;
+    margin-right: 20px;
+}
+.atividades span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #002A54;
+}
+.atividades-nao h2{
+    padding-top: 15px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #002A54;
+}
+.atividades-nao ul{
+    margin-left: -40px;
+    margin-right: 20px;
+}
+.atividades-nao span{
+    color: #002A54;
+}
+.duvida-escolha{
+    background: #59F8E8 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    padding: 15px;
+    margin-right: 20px;
+}
+.duvida-escolha p{
+    padding-top: 15px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #002A54;
+}
+.duvida-escolha span{
+    color: #002A54;
+    font-weight: 500;
+}
+.duvida-escolha a{
+    color: #3A58E8;
+    text-decoration: underline;
+}
+.descritores{
+    padding-top: 40px;
+    margin-right: 20px;
+}
+.descritores h2{
+    text-align: left;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #002A54;
+}
+.descritores p{
+    font-size: 16px;
+    color: #002A54;
+    font-weight: 500;
+}
+.atividades-relacionadas{
+    padding-top: 40px;
+}
+.lista-relacionados::-webkit-scrollbar {
+    width: 8px;
+}
+.lista-relacionados::-webkit-scrollbar-thumb {
+    background: #283ea6;
+    border-radius: 10px;
+}
+.lista-relacionados::-webkit-scrollbar-track {
+    background: #59f8e8;
+    border-radius: 10px;
+}
+.atividades-relacionadas ul{
+    margin-left: -40px;
+    margin-right: 20px;
+    list-style: none;
+    margin-bottom: 0;
+    max-height: 500px;
+    overflow-x: auto;
+}
+.atividades-relacionadas ul li{
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+    text-transform: lowercase;
+    font-size: 14px;
+    color: #002A54;
+}
+.atividades-relacionadas .form-lista::first-letter{
+    text-transform: uppercase;
+}
+.atividades-relacionadas p{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #002A54;
+    padding-right: 10px;
+}
+.atividades-relacionadas span{
+    color: #002A54;
+    font-weight: 500;
+}
+.fonte{
+    padding-top: 40px;
+}
+.fonte p{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #002A54;
+}
+.fonte span{
+    color: #002A54;
+    font-weight: 500;
+}
+.fonte a{
+    color: #3A58E8;
+    text-decoration: underline;
+}
+.atencao{
+    margin-top: 40px;
+    padding: 15px;
+    background: #F3F4F5 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    margin-right: 20px;
+}
+.atencao p{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #002A54;
+}
+.atencao span{
+    color: #002A54;
+    font-weight: 500;
+}
+.atencao a{
+    color: #3A58E8;
+    text-decoration: underline;
+}
+.formbuscaatv input{
+    border: solid 1px #B7BEC4;
+    border-radius: 8px;
+    background: #ffffff;
+    /*box-shadow: 0px 4px 16px #002a5429;*/
+    height: 48px;
+    float: left;
+    box-sizing: border-box;
+    padding: 0px 12px;
+    width: -webkit-fill-available;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-right: 20px;
+    font-size: 15px;
+    color:#7E8994;
+}
+.formbuscaatv input::selection{
+    border: none;
+}
+/******************* Formulário do modal ******************/
+.modal-form .modal-content{
+    background-color: #0083F6;
+    border-radius: 15px;
+    border: none!important;
+}
+.modal-form h4{
+    color: #ffffff;
+}
+.modal-form p{
+    color: #ffffff;
+    margin-top: revert;
+}
+.modal-form label{
+    color: #ffffff;
+    font-size: initial;
+}
+.modal-form .mb-5{
+    margin-bottom: 2rem!important;
+}
+.modal-form .btn{
+    background-color: #ffffff;
+    padding: 8px 50px;
+    border-radius: 6px;
+    color: #0083F6;
+    font-family: "Lato",Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: -30px;
+}
+.modal-form .btn:hover{
+    background-color: #0083F6;
+    padding: 10px 55px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    color: #ffffff;
+    font-family: "Lato",Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.modal-form, .modal-header, .modal-footer{
+    border: none!important;
+}
+.modal-body #msgemail, #msgemailvalid2, #msgemailvalid3, #msgemailvalid4, #msgemailvalid5{
+    padding-top: 10px;
+    padding-left: 13px;
+    font-family: 'Lato';
+    font-weight: 500;
+    color: chartreuse;
+}
+/******************* End Formulário do modal ******************/
+/******************* Formulário do modal alíquota ******************/
+.modal-form-aliquota .modal-title{
+    font-size: 22px;
+    color: #ffffff;
+}
+.modal-form-aliquota .text-center {
+    color: #ffffff;
+    font-size: 16px;
+}
+.modal-form-aliquota .botton{
+    padding-bottom: 1.2rem!important;
+}
+.modal-form-aliquota .modal-content{
+    border-radius: 15px;
+    background-image: url(https://contaagil.com/consulta-cnae/image/banner/bg-box.webp);
+    position: sticky;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.modal-form-aliquota label {
+    color: #ffffff;
+}
+.modal-form-aliquota .btn{
+    background-color: #ffda3c;
+    padding: 8px 50px;
+    border-radius: 6px;
+    color: #5438DC;
+    font-family: "Lato",Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: -30px;
+}
+.modal-form-aliquota .btn:hover {
+    background-color: #5438DC;
+    padding: 10px 55px;
+    border: 1px solid #ffda3c;
+    border-radius: 6px;
+    color: #ffffff;
+    font-family: "Lato",Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.modal-form-aliquota #msgemailvalid{
+    padding-top: 10px;
+    padding-left: 13px;
+    font-family: 'Lato';
+    font-weight: 500;
+    color: chartreuse;
+}
+/******************* End Formulário do modal alíquota ******************/
+/******************* Formulário do modal alíquota anexo ******************/
+.modal-anexo table, .modal-title, .text-center{
+    border-collapse: collapse;
+    color: #002A54;
+}
+.modal-anexo table td{
+    border-bottom: 1px solid #e5e5e5;
+    padding: 5px;
+}
+.modal-anexo .modal-dialog{
+    max-width: 900px;
+}
+.modal-anexo .modal-content{
+    border-radius: 15px;
+}
+.modal-anexo .tabela-anexo{
+    margin: 15px;
+    width: -webkit-fill-available;
+}
+.modal-anexo .tabela-anexo .adendos{
+    text-align: center;
+    border: none;
+}
+.modal-anexo .tabela-anexo tfoot .adendos td{
+    padding-top: 15px;
+    border: none;
+}
+/******************* End Formulário do modal alíquota anexo ******************/
+/******************* End Content ******************/
+/******************* Footer ******************/
+footer{
+	background: transparent linear-gradient(94deg, #0496FF 0%, #3A58E8 100%) 0% 0% no-repeat padding-box;
+	padding-top: 15px;
+	padding-bottom: 15px;
+    margin-top: 100px;
+}
+.logo-rodape img{
+    display: block;
+    margin: 0px auto;
+}
+.copy p{
+	padding-top: 23px;
+    font-size: 16px;
+    color: #ffffff;
+	text-align: center;
+}
+/******************* End Body ******************/
+/******************* Medias Query ******************/
+@media only screen and (max-width: 1440px){
+    .card-abertura img{
+        width: 280px;
+    }
+}
+@media  screen and (min-width: 1920px){
+    .conteudo-principal {
+        max-width: 100%!important;
+        padding-right: 350px!important;
+        padding-left: 350px!important;
+    }
+    .card-abertura {
+        height: -webkit-fill-available!important;
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+    }
+    .botao-cta .abrir-cnpj {
+        width: 357px;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .conteudo-principal {
+        padding-right: 90px!important;
+        padding-left: 90px!important;
+    }
+    .conteudo {
+        padding-left: 20px;
+    }
+    .card-abertura {
+        height: 520px;
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    .botao-cta .abrir-cnpj {
+        width: 261px!important;
+        height: 56px;
+        background: #ffda3c 0% 0% no-repeat padding-box;
+        box-shadow: 0px 8px 16px #59f8e83d;
+        border-radius: 16px;
+        border: none;
+        opacity: 1;
+        font-size: 20px!important;
+        font-weight: 600;
+        text-align: center;
+        font-family: 'Lato';
+        letter-spacing: 0px;
+        color: #5438DC;
+        margin-bottom: 0px;
+    }    
+    .card-abertura img{
+        width: 280px!important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .conteudo-principal {
+        padding-right: 50px!important;
+        padding-left: 50px!important;
+    }
+    .conteudo {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .estado{
+        display: block!important;
+        text-align: -webkit-center;
+    }
+    .estado .nao-atendido p{
+        font-size: 14px;
+        max-width: inherit;
+        text-align: center;
+    }
+    .estado .incluso p{
+        font-size: 14px;
+        max-width: inherit;
+        text-align: center;
+    }
+    .card-abertura {
+        height: 520px;
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    .card-abertura h2{
+        font-size: 22px;
+    }
+    .botao-cta .abrir-cnpj {
+        width: 203px!important;
+        font-size: 16px!important;
+    }
+    .estado .nao-incluso p {
+        text-align: center;
+        max-width: inherit;
+    }
+    .estado .atendido p {
+        text-align: center;
+        max-width: inherit;
+    }
+}
+@media screen and (max-width: 425px) {
+    .modal-anexo table {
+      border: 0;
+    }
+    .modal-anexo .modal-body {
+        padding: 0px;
+    }
+    .modal-anexo .tabela-anexo {
+        margin: 5px;
+    }
+    .modal-anexo table caption {
+      font-size: 1.3em;
+    }
+    .modal-anexo table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    .modal-anexo table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    .modal-anexo table td {
+      border-bottom: 1px solid #ddd;
+      display: table-header-group;
+      text-align: right;
+    }
+    .modal-anexo table td::before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+    }
+    .modal-anexo table td:last-child {
+      border-bottom: 0;
+    }
+    tfoot .adendos td:last-child {
+        text-align: center;
+        border: none;
+    }
+  }
+@media only screen and (max-width: 425px) {
+    .conteudo-principal {
+        padding-right: 20px!important;
+        padding-left: 20px!important;
+    }
+    .conteudo {
+        padding-left: 20px;
+    }
+    .estado{
+        display: block!important;
+        text-align: -webkit-center;
+    }
+    .estado .nao-atendido p{
+        font-size: 14px;
+        max-width: inherit;
+        text-align: center;
+    }
+    .estado .atendido p {
+        font-size: 14px;
+        max-width: inherit;
+    }
+    .estado .atendido img{
+        width: 17px;
+    }
+    .estado .incluso p{
+        font-size: 14px;
+        max-width: inherit;
+        text-align: center;
+    }
+    .estado .incluso img{
+        width: 17px;
+    }
+    .fonte {
+        padding-top: 40px;
+        margin-right: 20px;
+    }
+    .card-abertura{
+        max-width: -webkit-fill-available;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 40px;
+        height: 530px;
+    }
+    .botao-cta .abrir-cnpj {
+        width: 340px!important;
+        font-size: 18px!important;
+    }    
+}
+@media only screen and (max-width: 375px){
+    .botao-cta .abrir-cnpj{
+        width: 290px!important;
+        font-size: 18px!important;
+    }
+    .card-abertura {
+        height: 540px!important;
+    }
+}
+@media only screen and (max-width: 320px){
+    .conteudo-principal {
+        padding-right: 10px!important;
+        padding-left: 10px!important;
+    }
+    .botao-cta .abrir-cnpj{
+        width: 254px!important;
+        font-size: 18px!important;
+    }
+    .card-abertura {
+        height: 530px!important;
+    }
+}
+/******************* Medias Query ******************/
